@@ -2,7 +2,7 @@
 
 **A C++ research prototype for gastric histopathology image classification and exploratory model interpretation.**
 
-Binocular is an interactive desktop application built with **C++**, **OpenCV**, and **AlphaCore**, a custom C++ neural network library. The application loads a trained neural network, accepts an image of gastric tissue, and displays a **Normal**, **Abnormal**, or **Inconclusive** result based on the model's output. It also includes an experimental quadrant-replacement analysis to explore how changes in different image regions affect predictions.
+Binocular is an interactive desktop application built with **C++**, **OpenCV**, and [AlphaCore](https://github.com/TheNextGreatestThing/AlphaCore), a custom C++ neural network library. The application loads a trained neural network, accepts an image of gastric tissue, and displays a **Normal**, **Abnormal**, or **Inconclusive** result based on the model's output. It also includes an experimental quadrant-replacement analysis to explore how changes in different image regions affect predictions.
 
 Binocular was developed as an independent project using imagery from the **GasHisSDB** gastric histopathology research dataset. It explores whether changes to selected image regions affect the output of a trained classifier.
 
