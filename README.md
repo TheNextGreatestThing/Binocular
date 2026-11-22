@@ -135,7 +135,6 @@ The training block currently references absolute paths from the original develop
 
 - Make model and UI resource paths portable across machines.
 - Add explicit image-size validation/resizing and error handling for missing files.
-- Make each quadrant analysis independent by starting from a fresh copy of the reference image.
 - Revisit OpenCV mouse callback state management to ensure callback data remains valid.
 - Provide build configuration, sample inputs, and a reproducible evaluation pipeline.
 - Evaluate classification performance using a documented held-out dataset and appropriate metrics.
